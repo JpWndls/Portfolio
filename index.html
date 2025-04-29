@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Jean-Philippe Windels</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #000;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1, h2 {
+      color: #fff;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      border-bottom: 2px solid #444;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #000;
+    }
+    a {
+      color: #4fc3f7;
+    }
+  </style>
+</head>
+<body>
+
+<header data-aos="fade-down" data-aos-duration="1000">
+  <h1>Jean-Philippe Windels</h1>
+  <p>Développeur Fullstack & Futur DevOps - Étudiant passionné</p>
+</header>
+
+<section data-aos="fade-left" data-aos-duration="1000">
+  <h2 class="section-title">À propos</h2>
+  <p>Actuellement en BTS Cybersécurité, Informatique et Réseaux, je poursuis en Bachelor DevOps Fullstack. Curieux, rigoureux et passionné, je cherche une alternance dans le développement pour septembre 2025.</p>
+  <ul>
+    <li>Créativité, rigueur, autonomie</li>
+    <li>Esprit d'équipe, capacité d'adaptation</li>
+  </ul>
+</section>
+
+<section data-aos="fade-right" data-aos-duration="1000">
+  <h2 class="section-title">Compétences</h2>
+  <div class="skills-grid">
+    <div><strong>Langages :</strong><br>C, C++, Python, Java, PHP, JS, SQL</div>
+    <div><strong>Web :</strong><br>HTML, CSS, PHP, Node.js, WordPress</div>
+    <div><strong>Systèmes :</strong><br>Windows, Linux, Proxmox, pfSense</div>
+    <div><strong>Outils :</strong><br>VS Code, Figma, UML, VirtualBox</div>
+  </div>
+</section>
+
+<section data-aos="fade-left" data-aos-duration="1000">
+  <h2 class="section-title">Projets à venir</h2>
+  <ul>
+    <li>Création d'une tablette connectée (Arduino + site local)</li>
+    <li>Gestion d'accès RFID par rôle (admin, soignant, patient)</li>
+    <li>Refonte de site WordPress en HTML/CSS/JS</li>
+  </ul>
+</section>
+
+<section data-aos="fade-right" data-aos-duration="1000">
+  <h2 class="section-title">Contact</h2>
+  <p>Email : <a href="mailto:jeanphilippe.windels@gmail.com">jeanphilippe.windels@gmail.com</a><br>
+     Téléphone : 07 77 03 27 42<br>
+     Localisation : Wattignies (59)</p>
+</section>
+
+<footer data-aos="fade-up" data-aos-duration="1000">
+  <p>© 2025 Jean-Philippe Windels - Portfolio</p>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
